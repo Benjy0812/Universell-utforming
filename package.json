@@ -1,6 +1,20 @@
 {
-  "dependencies": {},
+  "name": "universell-utforming",
+  "type": "module",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.9.7",
+    "prettier-plugin-css-order": "^2.2.0",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "vite": "^8.3.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "dev:open": "vite --open",
+    "format": "prettier --write .",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
   }
 }

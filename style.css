@@ -1,14 +1,5 @@
 body {
-    /* brukte KI for fargene */
-    background-color: #D9C9A3;
-    color: #6B1E3F;
-}
-
-h1, p {
-    text-align: center;
-}
-
-.link_div {
-    text-align: center;
-    list-style: none;
+  /* brukte KI for fargene */
+  background-color: #d9c9a3;
+  color: #6b1e3f;
 }
