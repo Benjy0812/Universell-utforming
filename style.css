@@ -3,10 +3,21 @@
   padding: 0;
 }
 
+a {
+  color: #6b1e3f;
+}
+html,
 body {
   /* brukte KI for fargene */
   background-color: #d9c9a3;
+  min-height: 100%;
   color: #6b1e3f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -21,29 +32,36 @@ nav ul {
   list-style: none;
 }
 
-.del1,
-.del2,
-.del3 {
-  margin: 10px 50px 0 50px;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  width: 25vw;
-  min-height: 100vh;
+main {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main section {
+  border: 2px solid rgb(245, 120, 70);
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 20vw;
+}
+
+section img {
+    padding-top: 5px;
+    width: 20vw;
+    border-radius: 10px;
 }
 
 footer {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
-  padding: 10px;
+  align-items: flex-end;
+  margin: auto 0 0 0;
+  padding: 10px 50px;
 }
 
 footer ul {
-  margin-right: auto;
-  padding: 0 0 0 50px;
-  list-style: none;
+  margin: 0 auto 0 0;
 }
 
 footer p {
-  padding: 0 50px 0 0;
+  margin: 0 0 0 auto;
 }
