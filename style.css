@@ -46,9 +46,9 @@ main section {
 }
 
 section img {
-    padding-top: 5px;
-    width: 20vw;
-    border-radius: 10px;
+  border-radius: 10px;
+  padding-top: 5px;
+  width: 20vw;
 }
 
 footer {
@@ -64,4 +64,20 @@ footer ul {
 
 footer p {
   margin: 0 0 0 auto;
+}
+
+.del1 {
+  /* brukte KI for fargene */
+  background-color: #4b1d78;
+  color: #f2e6ff;
+}
+.del2 {
+  /* brukte KI for fargene */
+  background-color: #d99a2b;
+  color: #2b1400;
+}
+.del3 {
+  /* brukte KI for fargene */
+  background-color: #1f5f5f;
+  color: #eafff5;
 }
